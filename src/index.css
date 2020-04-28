@@ -3,50 +3,18 @@ body {
   font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
   color: #3f4850;
 }
-.forkongithub a {
-  background: #000;
-  color: #fff;
-  text-decoration: none;
-  font-family: arial, sans-serif;
-  text-align: center;
-  font-weight: bold;
-  padding: 5px 40px;
-  font-size: 1rem;
-  line-height: 2rem;
-  position: relative;
-  transition: 0.5s;
-}
-.forkongithub a:hover {
-  background: #c11;
-  color: #fff;
-}
-.forkongithub a::before,
-.forkongithub a::after {
-  content: "";
-  width: 100%;
-  display: block;
-  position: absolute;
-  top: 1px;
-  left: 0;
-  height: 1px;
-  background: #fff;
-}
-.forkongithub a::after {
-  bottom: 1px;
-  top: auto;
-}
 
 h2 {
   font-size: 2em;
   margin: 52px 0 40px;
   text-transform: capitalize;
-  color: #051c33;
+  color: #4f8899;
 }
 
 h1 {
   font-family: "Lobster", "Josefin Sans", Helvetica, Arial, sans-serif;
   font-size: 4em;
-  color: #051c33;
+  color: #f28034;
 }
 
 ul {
@@ -77,7 +45,7 @@ a {
 
 .search-form button {
   outline: none;
-  background-color: #051c33;
+  background-color: #f28034;
   border: none;
   padding: 0px 15px;
   border-radius: 0 0.35em 0.35em 0;
@@ -102,7 +70,7 @@ input {
 
 .main-nav a {
   display: block;
-  background: #051c33;
+  background: #f28034;
   border-radius: 3px;
   padding: 5px;
   color: #fff;
@@ -111,21 +79,27 @@ input {
 .main-nav .active,
 .main-nav a:hover,
 .search-form button:hover {
-  background-color: #051c33;
+  background-color: #f28034;
 }
 
 .photo-container ul {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   -ms-align-items: flex-start;
   align-items: flex-start;
+}
+
+
+.photo-container ul li:first-child{
+  margin-left: 0;
 }
 
 .photo-container ul li {
   width: 220px;
   height: 165px;
   overflow: hidden;
+  margin-left: 15px;
   margin-bottom: 15px;
 }
 
@@ -146,7 +120,7 @@ input {
 .loader {
   border: 16px solid #f3f3f3;
   /* Light grey */
-  border-top: 16px solid #051c33;
+  border-top: 16px solid #f28034;
   /* Blue */
   border-radius: 50%;
   width: 120px;
@@ -198,29 +172,5 @@ input {
   .main-nav li {
     margin: 10px;
     width: 100px;
-  }
-}
-@media screen and (min-width: 800px) {
-  .forkongithub {
-    position: fixed;
-    display: block;
-    top: 0;
-    right: 0;
-    width: 200px;
-    overflow: hidden;
-    height: 200px;
-    z-index: 9999;
-  }
-  .forkongithub a {
-    width: 200px;
-    position: absolute;
-    top: 60px;
-    right: -60px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
   }
 }

@@ -2,8 +2,8 @@ import React from "react";
 
 const NoImages = () => (
   <div>
-    <h2>No Images Found</h2>
-    <p>Please try a different search term</p>
+    <h2>Meme não encontrado</h2>
+    <p>Por favor pesquise por outro meme.</p>
   </div>
 );
 

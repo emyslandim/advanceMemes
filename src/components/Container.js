@@ -7,7 +7,7 @@ const Container = ({ searchTerm }) => {
   const { images, loading, runSearch } = useContext(PhotoContext);
   useEffect(() => {
     runSearch(searchTerm);
-  }, [searchTerm, runSearch]);
+  }, [searchTerm]);
 
   return (
     <div className="photo-container">
