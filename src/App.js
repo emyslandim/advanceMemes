@@ -49,6 +49,7 @@ class App extends Component {
               <Route path="/pai" render={() => <Item searchTerm="pai" />} />
               <Route path="/filho" render={() => <Item searchTerm="filho" />} />
               <Route path="/hev" render={() => <Item searchTerm="hev" />} />
+              <Route path="/yuuuri" render={() => <Item searchTerm="Yuuuri" />} />
               <Route
                 path="/search/:searchInput"
                 render={props => (

@@ -14,6 +14,7 @@ const Navigation = () => {
         <li><NavLink to="/pai">Pai</NavLink></li>
         <li><NavLink to="/filho">Filho</NavLink></li>
         <li><NavLink to="/hev">Hev</NavLink></li>
+        <li><NavLink to="/yuuuri">Yuuuri</NavLink></li>
       </ul>
     </nav>
   );
