@@ -13,7 +13,7 @@ const Gallery = props => {
       let id = image.id;
       let secret = image.secret;
       let title = image.title;
-      let url = `https://farm${farm}.staticflickr.com/${server}/${id}_${secret}_m.jpg`;
+      let url = `https://farm${farm}.staticflickr.com/${server}/${id}_${secret}.jpg`;
       return <Image url={url} key={id} alt={title} />;
     });
   } else {

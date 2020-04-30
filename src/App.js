@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Item from "./components/Item";
 import Search from "./components/Search";
 import NotFound from "./components/NotFound";
+import './App.css';
 
 class App extends Component {
   // Prevent page reload, clear input, set URL and push history on submit
