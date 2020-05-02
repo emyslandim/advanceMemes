@@ -91,25 +91,25 @@ input {
 }
 
 
-.photo-container ul li:first-child{
-  margin-left: 0;
-}
-
 .photo-container ul li {
   width: 220px;
   height: 165px;
   overflow: hidden;
   margin-left: 15px;
   margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.photo-container ul img {
-  width: 100%;
+.photo-container ul img.thumbnail {
+  height: auto;
+  width: 300px;
   transform: scale(1.25);
   transition: transform 1.25s;
 }
 
-.photo-container li:hover img {
+.photo-container li:hover img.thumbnail {
   transform: scale(1.65);
 }
 

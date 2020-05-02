@@ -8,7 +8,7 @@ const Image = ({ url, title }) => {
   return (
     <Fragment>
     <li onClick={()=> { changeDisplay('block') }}> 
-      <img src={url} alt={title} />
+      <img src={url} alt={title} className="thumbnail" />
     </li>
     <Modal changeDisplay={changeDisplay} url={url} display={display} />
     </Fragment>

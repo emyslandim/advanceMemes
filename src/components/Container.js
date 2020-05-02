@@ -1,13 +1,18 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { PhotoContext } from "../context/PhotoContext";
 import Gallery from "./Gallery";
 import Loader from "./Loader";
 
 const Container = ({ searchTerm }) => {
   const { images, loading, runSearch } = useContext(PhotoContext);
+  const [queryChange, setQueryChange] = useState(true);
+
   useEffect(() => {
-    runSearch(searchTerm);
-  }, [searchTerm]);
+    if(queryChange !== searchTerm){
+      runSearch(searchTerm);
+      setQueryChange(searchTerm);
+    }
+  }, [runSearch, searchTerm, queryChange]);
 
   return (
     <div className="photo-container">
