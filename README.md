@@ -25,6 +25,6 @@ AdvanceMemes is a gallery created with the aim of improving knowledge in React, 
 - Context API
 - Flickr API
 
-### CREATED BT
+### CRIADO POR - CREATED BY
 - Emilly Moura - @emysmoura
 - Rodrigo Roberto - @rodrigo_draf
