@@ -1,34 +1,23 @@
-# Snap Shot  [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=See%20this%20react%20example&url=https://yog9.github.io/SnapShot/&hashtags=react,context-api,freecodecamp,developers)
-[![Build Status](https://travis-ci.org/Yog9/SnapShot.svg?branch=master)](https://travis-ci.org/Yog9/SnapShot)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# AdvanceMemes
 
-[Demo of Snap Shot](https://yog9.github.io/SnapShot/)
+## RESUMO - SUMMARY
+### PT - BR
+Advance memes é uma galeria criada com o íntuito de aprimorar os conhecimentos em React,React Hooks, React Router e Context API de forma divertida. Para isso, fizemos uma galeria de fotos com os melhores memes dos nossos colegas de trabalho.
 
-![](/snapscout.png)
+### EN
+AdvanceMemes is a gallery created with the aim of improving knowledge in React, React Hooks, React Router and Context API in a fun way. We did a photo gallery with the best memes from our co-workers.
 
-### Summary
+### INICIANDO - GETTING STARTED
 
-Snap Shot is a gallery created using React,React Hooks, React Router and Context API. The Routes were setup for four default pages and a search page. Also the images were displayed using the Flickr API and axios to fetch data.
-
-### Motivation
-
-The purpose of this project was to get familiar with React Hooks and Context API.
-
-### Getting Started
-
-Click the demo link or clone/download the repository on your local machine.
-Create a config.js file in components folder. In config.js file write
-`export const apiKey = "YOUR_FLIKR_API_KEY";`
-
-##### Install dependencies
+### INSTALANDO DEPENDENCIAS - INSTALLING DEPENDENCIES
 
 `npm install`
 
-##### Run Snap Shot from the root directory.
+##### RODAR - RUN
 
 `npm start`
 
-### Built With
+### CONTRUÍDO COM - BUILD WITH
 
 - React js
 - React Router
@@ -36,14 +25,6 @@ Create a config.js file in components folder. In config.js file write
 - Context API
 - Flickr API
 
-### Features
-
-**1. Responsive Design.**
-
-**2. Search functionality added to search photos from API.**
-
-### Coming Soon
-
-- [ ] Create a carousel with react to browse photos.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### CRIADO POR - CREATED BY
+- Emilly Moura - @emysmoura
+- Rodrigo Roberto - @rodrigo_draf
